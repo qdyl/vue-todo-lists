@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+  background: #f4f4f4;
+}
+
+ul,li{
+  list-style: none;
+}
+input{
+  border: none;
+}
+a{text-decoration: none}
+.clear-fx::after{
+  content:'';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clear-fx::before{
+  content:'';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.pr{
+  position: relative;}
+.pa{
+  position: absolute;}
